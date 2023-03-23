@@ -1,0 +1,247 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b7b8f3d5;
+    padding: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #383868;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Main content */
+.main-content {
+    padding: 154px;
+}
+
+.main-content-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #f0f8fd;
+    margin: 0 0 16px 0;
+}
+
+/* About me */
+.my-profession {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #f0f8fd;
+    margin: 0 0 8px 0;
+}
+
+.my-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #ebfff1;
+    margin: 0 0 28px 0;
+}
+
+.my-descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #e9f3eeee;
+    width: 524px;
+}
+
+.about-me-container {
+    margin-bottom: 64px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 370px;
+    background: #f0ae4bea;
+    padding: 0 0 0 0;
+}
+
+.my-photo {
+    margin: 40px 0 0 0;
+}
+
+.contacts-container,
+.soft-skills-container,
+.tech-skills-container,
+.language-container,
+.location-container {
+    margin: 40px 0 0 40px;
+}
+
+.sidebar-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+/* Work expirience */
+
+.work-expirience-container {
+    margin-bottom: 44px;
+}
+
+.work-expirience-position,
+.course-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #dbfdedee;
+}
+
+.work-expirience-place,
+.courses-place {
+    margin-bottom: 16px;
+}
+
+.work-expirience-company,
+.university-name,
+.course-speciality {
+    color: #5281e7;
+    width: 340px;
+    margin: 12px 0 12px 0;
+}
+
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    margin: 12px 0 8px 0;
+}
+
+.work-duties {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #e9f3eeee;
+}
+
+.work-duties-list {
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+/* Education */
+
+.education-speciality {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9095c4;
+    margin: 34px 0 12px 0;
+}
+
+/* Contaxt */
+.contact-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0b0c0bea;
+    margin-right: 8px;
+}
+
+.contacts-item {
+    margin: 0;
+}
+
+.contacts-number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #287ff0;
+}
+
+.contacts-email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #287ff0;
+}
+
+/* Skills */
+.skills-list {
+    margin: 0;
+    padding: 0 0 0 16px;
+}
+
+.skills-list-item {
+    color: #000c0ce5;
+}
+
+.skills-list-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000c0ce5;
+}
+
+/* Language */
+.language-list {
+    margin: 0;
+    padding: 0 0 0 16px;
+}
+
+.language-list-item {
+    color: #000c0ce5;
+}
+
+.language-list-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000c0ce5;
+}
+
+/* Location */
+.location-list {
+    margin: 0;
+    padding: 0 0 0 16px;
+}
+
+.location-list-item {
+    color: #3624f7ef;
+}
+
+.location-list-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #09080cd5;
+}
+
+/* Courses */
+.course-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #e9f3eeee;
+}
+
+.courses-list {
+    padding: 0 0 0 20px;
+    margin: 0;
+}
