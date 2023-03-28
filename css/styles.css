@@ -87,13 +87,13 @@ body {
     margin-bottom: 8px;
 }
 
-/* Work expirience */
+/* Work experience */
 
-.work-expirience-container {
+.work-experience-container {
     margin-bottom: 44px;
 }
 
-.work-expirience-position,
+.work-experience-position,
 .course-title {
     font-style: normal;
     font-weight: 700;
@@ -102,12 +102,12 @@ body {
     color: #dbfdedee;
 }
 
-.work-expirience-place,
+.work-experience-place,
 .courses-place {
     margin-bottom: 16px;
 }
 
-.work-expirience-company,
+.work-experience-company,
 .university-name,
 .course-speciality {
     color: #5281e7;
@@ -148,7 +148,7 @@ body {
     margin: 34px 0 12px 0;
 }
 
-/* Contaxt */
+/* Contact */
 .contact-type {
     font-style: normal;
     font-weight: 700;
@@ -217,20 +217,17 @@ body {
 /* Location */
 .location-list {
     margin: 0;
-    padding: 0 0 0 16px;
-}
-
-.location-list-item {
-    color: #3624f7ef;
+    padding: 0 0 0 4px;
 }
 
 .location-list-text {
     font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 28px;
-    color: #09080cd5;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000c0ce5;
 }
+
 
 /* Courses */
 .course-name {
@@ -244,4 +241,9 @@ body {
 .courses-list {
     padding: 0 0 0 20px;
     margin: 0;
+}
+
+/* Button */
+.button {
+    padding: 20px 0 0 44px;
 }
