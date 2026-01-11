@@ -244,6 +244,21 @@ body {
 }
 
 /* Button */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+}
+
+@media print {
+    .no-break {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
+
+
 .download-btn {
     margin-top: 40px;
     margin-left: 48px;
@@ -259,10 +274,6 @@ body {
     cursor: pointer;
     transition: all 500ms ease;
 
-    /* position: fixed;
-    left: 80px;
-    bottom: 40px;
-    z-index: 200; */
 }
 
 .download-btn:hover {
